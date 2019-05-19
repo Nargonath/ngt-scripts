@@ -1,0 +1,36 @@
+{
+  "name": "ngt-scripts",
+  "version": "0.0.0-development",
+  "description": "Script used to abstract project boilerplate for my personal projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nargonath/ngt-scripts.git"
+  },
+  "keywords": [
+    "configuration",
+    "scripts"
+  ],
+  "author": "Nargonath <jonas.pauthier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nargonath/ngt-scripts/issues"
+  },
+  "homepage": "https://github.com/Nargonath/ngt-scripts#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
+    "@commitlint/config-conventional": "^7.6.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1"
+  }
+}
