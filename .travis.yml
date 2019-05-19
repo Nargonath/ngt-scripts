@@ -9,6 +9,7 @@ jobs:
       script:
         - commitlint-travis
     - stage: release
+      if: branch = master
       # disable the script so we don't run the test command
       script: true
       node_js: lts/*
@@ -16,5 +17,3 @@ jobs:
         provider: script
         skip_cleanup: true
         script: npx semantic-release
-          on:
-            branch: master
