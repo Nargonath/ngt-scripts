@@ -4,7 +4,8 @@
   "description": "Script used to abstract project boilerplate for my personal projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "husky.js",
@@ -13,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nargonath/ngt-scripts.git"
+    "url": "https://github.com/Nargonath/ngt-scripts.git"
   },
   "keywords": [
     "configuration",
@@ -36,6 +37,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^2.3.0",
     "lint-staged": "^8.1.7",
-    "prettier": "^1.17.1"
+    "prettier": "^1.17.1",
+    "semantic-release": "^15.13.12"
   }
 }
