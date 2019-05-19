@@ -9,10 +9,12 @@ jobs:
       script:
         - commitlint-travis
     - stage: release
+      # disable the script so we don't run the test command
+      script: true
       node_js: lts/*
       deploy:
         provider: script
         skip_cleanup: true
         script: npx semantic-release
-        on:
-          branch: master
+          on:
+            branch: master
