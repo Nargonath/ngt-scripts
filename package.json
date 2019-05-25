@@ -10,7 +10,8 @@
   "files": [
     "husky.js",
     "prettier.js",
-    "commitlint.js"
+    "commitlint.js",
+    "lint-staged.js"
   ],
   "repository": {
     "type": "git",
