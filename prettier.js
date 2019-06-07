@@ -1,9 +1,9 @@
-'use strict'
+'use strict';
 
 module.exports = {
   printWidth: 80,
   tabWidth: 2,
-  semi: false,
+  semi: true,
   singleQuote: true,
   quoteProps: 'as-needed',
   jsxSingleQuote: false,
@@ -11,4 +11,4 @@ module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
   arrowParens: 'avoid',
-}
+};
