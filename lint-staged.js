@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
   linters: {
@@ -9,4 +9,4 @@ module.exports = {
     ],
   },
   ignore: ['**/dist', 'CHANGELOG.md'],
-}
+};

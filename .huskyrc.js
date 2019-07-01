@@ -1,3 +1,3 @@
-'use strict'
+'use strict';
 
-module.exports = require('./husky')
+module.exports = require('./husky');
