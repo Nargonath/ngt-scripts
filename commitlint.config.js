@@ -1,3 +1,3 @@
-'use strict'
+'use strict';
 
-module.exports = require('./commitlint')
+module.exports = require('./commitlint').default;
