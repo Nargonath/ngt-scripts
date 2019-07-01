@@ -1,3 +1,3 @@
-'use strict'
+'use strict';
 
-module.exports = require('./lint-staged')
+module.exports = require('./lint-staged');

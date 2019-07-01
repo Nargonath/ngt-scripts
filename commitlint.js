@@ -1,5 +1,6 @@
-'use strict'
+'use strict';
 
 module.exports = {
-  extends: ['@commitlint/config-conventional'],
-}
+  default: { extends: ['@commitlint/config-conventional'] },
+  lerna: { extends: ['@commitlint/config-lerna-scopes'] },
+};

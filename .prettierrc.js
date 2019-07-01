@@ -1,3 +1,3 @@
-'use strict'
+'use strict';
 
-module.exports = require('./prettier')
+module.exports = require('./prettier');
