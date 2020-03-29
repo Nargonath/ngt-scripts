@@ -40,7 +40,7 @@
     "@commitlint/travis-cli": "^8.0.0",
     "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.0",
-    "lint-staged": "^9.0.2",
+    "lint-staged": "^10.0.10",
     "prettier": "^1.17.1",
     "semantic-release": "^15.13.12"
   }
